@@ -89,6 +89,7 @@ body {
 }
 
 .l-burgerClose {
+    display: none;
     @media(max-width: $breakpoint-tablet - 1px) {
         position: absolute;
         width: 60px;
@@ -98,7 +99,6 @@ body {
         cursor: pointer;
         border-radius: $radius-sm;
         border: 1px solid $color-secondary;
-        display: none;
         background: transparent;
         &:focus {
             outline: none;
